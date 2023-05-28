@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/estilos.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <link rel="icon" type="image/jpg" href="assets/img/icone-de-service-bleu.png"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+        <title>Tecnisoftware</title>
+    </head>
+
+    <body>
+        <header>
+            <input type="checkbox" id="toggler" />
+            <label for="toggler" class="fa-solid fa-bars" id="menu"></label>
+            <a href="index.html" class="logo"><i class="fa-solid fa-building-columns"></i> Tecnisoftware<span>.</span></a>
+            <nav class="navbar">
+                <a href="#home" class="active"><i class="fa-solid fa-house"></i> Inicio</a>
+                <a href="#about"><i class="fa-solid fa-screwdriver-wrench"></i> Tecnisoftware</a>
+                <a href="#services"><i class="fa-solid fa-user-gear"></i> Servicios</a>
+                <a href="#products"><i class="fa-sharp fa-solid fa-box"></i> Productos</a>
+                <a href="#contact"><i class="fa-solid fa-envelope"></i> Contacto</a>
+            </nav>
+            <div class="icons">
+                <a href="" class="fa-solid fa-cart-shopping"></a>
+                <a href="#" class="fa-solid fa-heart"></a>
+                <a href="#" class="fa-solid fa-user"></a>
+            </div>
+        </header>
+
+        <section class="home" id="home">
+            <div class="content" >
+                <div class="text" data-aos="fade-up" data-aos-duration="1500">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quaerat? Nobis debitis maxime nisi, adipisci est eius a in, excepturi dolor deserunt quae tenetur aliquam ullam alias quisquam! Sapiente,
+                        aperiam!
+                    </p>
+                    <a href="#" class="btn">Contactar</a>
+                </div>
+                <div class="image"></div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h1 class="heading"><span>Tecnisoftware</span></h1>
+            <div class="row">
+                <div class="image"  data-aos="fade-right" data-aos-duration="1500">
+                    <img src="assets/img/logo.png" />
+                </div>
+                <div class="conte-text"  data-aos="fade-left">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur id impedit beatae reiciendis iure hic architecto suscipit animi fuga aliquam laborum libero, aliquid dolor voluptatem a nam voluptatibus recusandae. Amet.
+                        Dolores vel delectus, aut soluta quam quaerat, enim ipsum natus voluptas, deserunt repudiandae. Magnam debitis et non in velit nam, voluptas quas, blanditiis rem exercitationem consectetur ab, odit suscipit corrupti?</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h1 class="heading"><span>Servicios</span></h1>
+            <div class="row">
+                <div class="service" data-aos="zoom-in" data-aos-duration="1500">
+                    <i class="fa-solid fa-desktop"></i>
+                    <h3>Mantenimiento</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="service" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h3>Instalacion</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>Contáctanos</span></h1>
+            <div class="row">
+                <form action="">
+                    <input type="text" placeholder="Nombre completo" class="box" />
+                    <input type="text" placeholder="Correo electrónico" class="box" />
+                    <input type="text" placeholder="Celular" class="box" />
+                    <textarea name="" id="" cols="30" rows="10" class="box"></textarea>
+                    <input type="submit" value="Enviar" class="btn" />
+                </form>
+                <div class="image" data-aos="flip-left"  data-aos-duration="1500">
+                    <img src="assets/img/envelope-1-solid.svg" />
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Ruta.</h3>
+                    <a href="#home" class="active"><i class="fa-solid fa-house"></i> Inicio</a>
+                    <a href="#about"><i class="fa-solid fa-screwdriver-wrench"></i> Tecnisoftware</a>
+                    <a href="#services"><i class="fa-solid fa-user-gear"></i> Servicios</a>
+                    <a href="#products"><i class="fa-sharp fa-solid fa-box"></i> Productos</a>
+                    <a href="#contact"><i class="fa-solid fa-envelope"></i> Contacto</a>
+                </div>
+                <div class="box">
+                    <h3>Información</h3>
+                    <a href="#home">3216417525</a>
+                    <a href="#about">gerencia@tecnisoftware.co</a>
+                    <a href="#services">Calle 3 norte # 14-34, Armenia, Colombia</a>
+                </div>
+                <div class="box">
+                    <h3>Ayuda & Soporte</h3>
+                    <a href="#home">Terminos y condiciones</a>
+                    <a href="#about">Politicas de privacidad</a>
+                </div>
+            </div>
+        </section>
+        <div class="credit">&copy; 2023 Tecnisoftware</div>
+
+        <script src="assets/js/script.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
